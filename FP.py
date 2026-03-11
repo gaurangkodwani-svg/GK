@@ -171,3 +171,4 @@ else:
 # --- Footer ---
 
 st.markdown("<br><hr><center style='color: #64748b;'>Built by Gaurang Kodwani</center>", unsafe_allow_html=True)
+
