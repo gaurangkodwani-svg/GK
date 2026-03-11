@@ -1,5 +1,5 @@
 import streamlit as st
-from faster_whisper import WhisperModel
+from faster-whisper import WhisperModel
 import google.generativeai as genai
 import asyncio
 from pathlib import Path
@@ -169,4 +169,5 @@ else:
     st.warning("⚠️ Please enter your Gemini API Key in the sidebar to unlock the AI.")
 
 # --- Footer ---
+
 st.markdown("<br><hr><center style='color: #64748b;'>Built by Gaurang Kodwani</center>", unsafe_allow_html=True)
