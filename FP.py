@@ -1,5 +1,5 @@
 import streamlit as st
-from faster-whisper import WhisperModel
+from faster_whisper import WhisperModel
 import google.generativeai as genai
 import asyncio
 from pathlib import Path
@@ -171,3 +171,4 @@ else:
 # --- Footer ---
 
 st.markdown("<br><hr><center style='color: #64748b;'>Built by Gaurang Kodwani</center>", unsafe_allow_html=True)
+
