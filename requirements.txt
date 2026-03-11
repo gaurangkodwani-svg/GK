@@ -2,3 +2,6 @@ faster-whisper
 streamlit
 pytubefix
 google-generativeai
+torch
+pathlib
+asyncio
